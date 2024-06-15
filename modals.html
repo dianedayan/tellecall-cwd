@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Font awesome -->
+    <script src="https://kit.fontawesome.com/d38fe9919d.js" crossorigin="anonymous"></script>
+    <!--Font awesome cdnjs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Modals</title>
+</head>
+<body>
+    <h1 class="red-text text-lighten-2 center">Modals</h1>
+    <div class="divider"></div>
+    <div class="row">
+        <div class="container bsa">
+            <div class="col s12 m8">
+    <p>Use a modal for dialog boxes, confirmation messages, or other content that can be called up. In order for the modal
+        to work you have to add the Modal ID to the link of the trigger. To add a close button, just add the class
+        </p>
+        <a href="#modal1" class="waves-effect waves--light btn modal-trigger">Modal</a>
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>bunch of text</p>
+
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-red btn-flat">Disagree</a>
+            <a href="#!" class="modal-close waves-effect waves-red btn-flat">Agree</a>
+        </div>
+    </div>
+            </div>
+            
+
+            <div class="row">
+                
+                    <div class="col s12 m8">
+                        <h3 class="red-text text-lighten-2 ">Modals</h3>
+            <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Modal</a>
+    <div id="modal2" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>bunch of text</p>
+            <p>bunch of text</p>
+            <p>bunch of text</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-red btn-flat">Disagree</a>
+            <a href="#!" class="modal-close waves-effect waves-red btn-flat">Agree</a>
+    </div>
+    </div>
+                    </div>
+    
+    <div class="row">
+        
+            <div class="col s9">
+                <h3 class="red-text text-lighten-2 ">Modals</h3>
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Modal</a>
+    <div id="modal3" class="modal bottom-sheet">
+        <div class="modal-content">
+        <h3 class="header">Modal Header</h3>
+        <ul class="collection">
+            <li class="collection-item avatar">
+            <img src="img/img9.webp" alt="" class="circle">
+            <span class="title">Title</span>
+            <p>First Line
+                <br> Second Line
+            </p>
+            <a href="#!" class="secondary-content">
+                <i class="material-icons">grade</i>
+            </a>
+            </li>
+            <li class="collection-item avatar">
+            <i class="material-icons circle">folder</i>
+            <span class="title">Title</span>
+            <p>First Line
+                <br> Second Line
+            </p>
+            <a href="#!" class="secondary-content">
+                <i class="material-icons">grade</i>
+            </a>
+            </li>
+            <li class="collection-item avatar">
+            <i class="material-icons circle green">assessment</i>
+            <span class="title">Title</span>
+            <p>First Line
+                <br> Second Line
+            </p>
+            <a href="#!" class="secondary-content">
+                <i class="material-icons">grade</i>
+            </a>
+            </li>
+            <li class="collection-item avatar">
+            <i class="material-icons circle red">play_arrow</i>
+            <span class="title">Title</span>
+            <p>First Line
+                <br> Second Line
+            </p>
+            <a href="#!" class="secondary-content">
+                <i class="material-icons">grade</i>
+            </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+    <div style="height: 1000px"></div>
+
+    <!-- Jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.modal').modal();
+        
+        
+    
+    });
+</script>
+</body>
+</html>
+</body>
+</html>
